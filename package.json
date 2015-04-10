@@ -1,0 +1,6 @@
+{
+  "name": "eve-header",
+  "version": "0.0.1",
+  "private": false,
+  "main": "eve-header.js"
+}
