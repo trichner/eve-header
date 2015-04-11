@@ -11,7 +11,7 @@ app.use(eveHeader);
 | Eve Header | req path |
 |-----|-----|
 |'eve_trusted' | 'trusted',|
-|'eve_serverip' | 'serverIp',|
+|'eve_serverip' | 'server.ip',|
 |'eve_charname' | 'char.name',|
 |'eve_charid' | 'char.id',|
 |'eve_corpname' | 'corp.name',|
