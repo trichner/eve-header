@@ -26,9 +26,9 @@ var eve_headers = {
 }
 
 module.exports = function(req, res, next) {
+  req.eve = {};
   for (var key in eve_headers) {
     if (eve_headers.hasOwnProperty(key)) {
-      req.eve = {};
       setPath(req.eve,eve_headers[key],req.get(key));
     }
   }
