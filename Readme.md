@@ -7,7 +7,7 @@ app.use(eveHeader);
 ```
 
 ## Headers
-|-----|-----|
+
 | Eve Header | req path |
 |-----|-----|
 |'eve_trusted' | 'trusted',|
@@ -30,4 +30,3 @@ app.use(eveHeader);
 |'eve_shipname' | 'ship.name',|
 |'eve_shiptypeid' | 'ship.type.id',|
 |'eve_shiptypename' | 'ship.type.name' |
-|-----|-----|
