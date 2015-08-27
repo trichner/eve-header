@@ -42,5 +42,5 @@ app.get('/',function(req, res, next){
 Documented here https://wiki.eveonline.com/en/wiki/IGB_Headers and here http://wiki.eveuniversity.org/In_Game_Browser_Development
 
 ## Good to know
-- an nginx proxy will filter the headers by default (fix here: http://nginx
-.org/en/docs/http/ngx_http_core_module.html#underscores_in_headers)
+- an nginx proxy will filter the headers by default, fix here: http://nginx
+.org/en/docs/http/ngx_http_core_module.html#underscores_in_headers
